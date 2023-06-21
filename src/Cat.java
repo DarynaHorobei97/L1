@@ -3,7 +3,7 @@ public class Cat {
     String color;
     int weight;
 
-    void showCatInfo(){
+    void showCatInfo() {
         System.out.println("Cat has such characteristics " + color + " " + weight);
     }
 
@@ -11,8 +11,6 @@ public class Cat {
         Cat cat1 = new Cat();
         cat1.color = "black";
         cat1.weight = 5;
-
-        System.out.println(5/0);
+        Cat cat3 = new Cat();
     }
-
 }
