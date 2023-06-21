@@ -12,5 +12,7 @@ public class Cat {
         cat1.color = "black";
         cat1.weight = 5;
         Cat cat3 = new Cat();
+        Cat cat4 = new Cat();
+        Cat cat5 = new Cat();
     }
 }
