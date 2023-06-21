@@ -12,7 +12,7 @@ public class Cat {
         cat1.color = "black";
         cat1.weight = 5;
 
-        System.out.println(5/0);
+        Cat cat2 = new Cat();
     }
 
 }
